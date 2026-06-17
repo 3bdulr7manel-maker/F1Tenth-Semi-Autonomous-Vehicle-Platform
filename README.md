@@ -11,9 +11,10 @@ This repository contains the mechanical designs, electronic schematics, and embe
 ## 📸 Mechanical CAD Showcase
 
 <div align="center">
-<img width="500" height="500" alt="Screenshot 2026-06-17 151951" src="https://github.com/user-attachments/assets/24886edc-6975-4e0f-8062-d973a1eb91ea" />
+  
+<img width="600" height="500" alt="Screenshot 2026-06-17 194733" src="https://github.com/user-attachments/assets/77db05a5-e4d0-4078-839f-56b4442d1e8c" />
 
-<img width="500" height="500" alt="Picture1" src="https://github.com/user-attachments/assets/96c38c33-9010-4ae7-8a2d-3ad6aa2bc439" />
+
 
 </div>
 
@@ -37,8 +38,12 @@ The primary objective of this project is to build a robust, high-performance rob
 * **Custom PCB & Schematics:** The electronics are mounted on a custom, single-sided printed circuit board designed for rapid lab prototyping on a CNC3018 isolation milling machine. 
 
 <div align="center">
-  <img width="500" alt="Schematic Diagram" src="https://github.com/user-attachments/assets/57a4f66d-0572-4f09-93c6-d30c3f8da4c7" />
-  <img width="500" alt="Code Logic and Software Architecture" src="https://github.com/user-attachments/assets/a7689679-0a7b-427b-97c8-efabd9cb362e" />
+  <img width="450" height="400" alt="Screenshot 2026-06-17 194955" src="https://github.com/user-attachments/assets/8acab342-0ee0-481d-a3b9-5fd11b434af6" />
+
+ <img width="450" height="400" alt="Screenshot 2026-06-17 195028" src="https://github.com/user-attachments/assets/77a4c6ad-79ba-456b-b74b-6337a85786e2" />
+ 
+<img width="500" height="400" alt="Screenshot 2026-06-17 194612" src="https://github.com/user-attachments/assets/e9da528d-436f-4cf8-88d2-16a88f32b886" />
+
 </div>
 
 </div>
@@ -52,8 +57,8 @@ The primary objective of this project is to build a robust, high-performance rob
 The system leverages FreeRTOS to split tasks between the two cores of the ESP32, ensuring deterministic execution of critical control loops.
 
 <div align="center">
+<img width="600" height="500" alt="5879451809368182509" src="https://github.com/user-attachments/assets/83bbe637-798c-4e6d-ab33-50afd31f493a" />
 
-  <img width="600" alt="PCB Layout" src="https://github.com/user-attachments/assets/eb47402b-5774-40d6-b9f0-7fac5ed36509" />
 
 <br>
 
@@ -72,3 +77,27 @@ The system leverages FreeRTOS to split tasks between the two cores of the ESP32,
 | **I2C Multiplexer** | TCA9548A (To resolve AS5600 address conflicts) |
 | **Obstacle Sensors** | 3x HC-SR04 Ultrasonic Sensors |
 | **Receiver** | FS-iA6B 6-Channel RC Receiver |
+
+## 🎥 Live Demonstration & Real Prototype
+
+<div align="center">
+  <br><img width="400" height="400" alt="5879451809368182392" src="https://github.com/user-attachments/assets/f94b248a-1061-428b-b954-fe02198bc333" />
+
+<img width="400" height="400" alt="587945180936818239333" src="https://github.com/user-attachments/assets/6f8fcb85-46fd-419d-a4f2-35f8baa7d1d0" />
+
+
+
+
+
+
+
+
+https://github.com/user-attachments/assets/83665a0f-c02f-4cce-9204-bd650317a64b
+
+
+
+
+
+
+
+
