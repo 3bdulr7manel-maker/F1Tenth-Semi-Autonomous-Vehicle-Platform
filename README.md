@@ -127,7 +127,6 @@ To advance this semi-autonomous vehicle from a foundational prototype to a highl
 
 ### 2. Electrical & Power Subsystem Upgrades
 * **Pin Mapping & Schematic Auditing:** Conduct a rigorous cross-verification between the hardware PCB schematics and the FreeRTOS codebase to guarantee perfect hardware-software pin alignment prior to any secondary fabrication.
-* **PCB Layout Redesign:** Re-engineer the custom PCB layout to optimize trace routing, minimize electromagnetic interference (EMI) loops, and accommodate the expanding electronic component infrastructure.
 * **Power Capacity Expansion:** Upgrade the power delivery network by expanding the battery bank or transitioning to high-discharge Lithium-Polymer (LiPo) batteries to safely handle larger dynamic loads and extend operational runtime.
 
 ### 3. Sensor Fusion & Advanced Autonomy (Perception & Compute)
