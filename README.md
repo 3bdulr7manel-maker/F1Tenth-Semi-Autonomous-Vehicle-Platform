@@ -61,10 +61,13 @@ The system leverages FreeRTOS to split tasks between the two cores of the ESP32,
 
 
 <br>
+<div align="left">
 
 * **Core 1 (Decision & Perception):** Handles asynchronous tasks such as RC signal filtering, calculating the Ackermann differential wheel speeds, and managing the Advanced Driver Assistance System (ADAS) state machine using ultrasonic sensors for obstacle avoidance.
 * **Core 0 (Deterministic Control):** Locked to a strict 1-millisecond hardware loop to aggregate I2C sensor data via a TCA9548A multiplexer. The right-side AS5600 encoder is registered in reverse compared to the left-side baseline to ensure valid differential RPM tracking. This core executes the Proportional-Integral (PI) closed-loop control to map targeted RPMs to stable PWM outputs.
 
+<div align="center">
+  
 ## 🧰 Hardware Components
 
 | Component | Specification / Role |
@@ -78,23 +81,33 @@ The system leverages FreeRTOS to split tasks between the two cores of the ESP32,
 | **Obstacle Sensors** | 3x HC-SR04 Ultrasonic Sensors |
 | **Receiver** | FS-iA6B 6-Channel RC Receiver |
 
+
 ## 🎥 Live Demonstration & Real Prototype
 
+
 <div align="center">
-  <br><img width="400" height="400" alt="5879451809368182392" src="https://github.com/user-attachments/assets/f94b248a-1061-428b-b954-fe02198bc333" />
+<img width="300" height="300" alt="58794518093681823922" src="https://github.com/user-attachments/assets/c041b22d-02b4-444b-b971-e87a7c440431" />
 
-<img width="400" height="400" alt="587945180936818239333" src="https://github.com/user-attachments/assets/6f8fcb85-46fd-419d-a4f2-35f8baa7d1d0" />
-
-
+<img width="300" height="300" alt="587945180936818239333" src="https://github.com/user-attachments/assets/6f8fcb85-46fd-419d-a4f2-35f8baa7d1d0" />
 
 
 
 
 
 
-https://github.com/user-attachments/assets/83665a0f-c02f-4cce-9204-bd650317a64b
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/83665a0f-c02f-4cce-9204-bd650317a64b"
+         width="400"
+      height="400"
+         controls>
+  </video>
+</p>
 
 
+</div>
+
+<div align="left">
+  
 ## 💡 Project Constraints & Learning Outcomes
 
 While the current state of the vehicle focuses on establishing a robust, foundational semi-autonomous system, the journey to this baseline involved overcoming significant multi-disciplinary hurdles:
@@ -104,7 +117,23 @@ While the current state of the vehicle focuses on establishing a robust, foundat
 
 Ultimately, what may appear as a foundational prototype is the result of rigorous cross-disciplinary learning, troubleshooting, and the successful integration of three distinct engineering fields into a single, functional system.
 
+## 🚀 Future Improvements & Next Steps
 
+To advance this semi-autonomous vehicle from a foundational prototype to a highly robust, deployment-ready robotic platform, several mechanical, electrical, and software upgrades are planned for future iterations:
+
+### 1. Mechanical & Structural Enhancements
+* **Advanced Tire Materials:** Transition to high-grip compounds (such as specialized TPU or soft rubber) to significantly increase the friction coefficient and eliminate wheel slippage, ensuring precise execution of the optimized Ackermann steering geometry.
+* **Secondary Suspension System:** Integrate a dedicated secondary suspension/shock-absorption mechanism to dampen high-frequency vibrations. This is critical for protecting delicate onboard electronics and maintaining sensor stability, particularly when operating on rigid concrete surfaces.
+
+### 2. Electrical & Power Subsystem Upgrades
+* **Pin Mapping & Schematic Auditing:** Conduct a rigorous cross-verification between the hardware PCB schematics and the FreeRTOS codebase to guarantee perfect hardware-software pin alignment prior to any secondary fabrication.
+* **PCB Layout Redesign:** Re-engineer the custom PCB layout to optimize trace routing, minimize electromagnetic interference (EMI) loops, and accommodate the expanding electronic component infrastructure.
+* **Power Capacity Expansion:** Upgrade the power delivery network by expanding the battery bank or transitioning to high-discharge Lithium-Polymer (LiPo) batteries to safely handle larger dynamic loads and extend operational runtime.
+
+### 3. Sensor Fusion & Advanced Autonomy (Perception & Compute)
+* **Ultrasonic Sensor Optimization:** Restructure the proximity sensing array by mounting the current ultrasonic sensors at strategic angles. This includes adding at least two dedicated side-facing sensors and increasing the sensor count across the chassis perimeter for better spatial awareness.
+* **360° LiDAR Integration:** As a superior alternative or complement to the ultrasonic array, integrating a 360-degree LiDAR sensor is planned to achieve high-resolution spatial mapping and advanced obstacle avoidance.
+* **Migration to ROS 2 & Computer Vision:** Elevate the entire control architecture by migrating from bare-metal microcontroller scripts to **ROS 2 (Robot Operating System)**. Pairing ROS 2 with a LiDAR sensor and a monocular/stereo camera will unlock advanced capabilities, including SLAM (Simultaneous Localization and Mapping), visual odometry, and real-time computer vision processing.
 
 
 
