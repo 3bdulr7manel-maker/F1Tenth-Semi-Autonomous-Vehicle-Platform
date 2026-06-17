@@ -10,10 +10,18 @@ This repository contains the mechanical designs, electronic schematics, and embe
 
 ## 📸 Project Showcase
 
-*(اضف صورة تصميم الـ CAD هنا)*
+<img width="1205" height="705" alt="Screenshot 2026-06-17 151951" src="https://github.com/user-attachments/assets/9f90f6d8-614e-40eb-831d-6e2f19d9c48a" />
+
+<img width="402" height="531" alt="Picture1" src="https://github.com/user-attachments/assets/c02bdf50-a559-46da-b54a-2c87cf60e5d4" />
+
 `![Mechanical CAD Design](images/cad_design.png)`
 
-*(اضف صورة مخطط النظام أو الـ PCB هنا)*
+<img width="617" height="437" alt="Picture2" src="https://github.com/user-attachments/assets/57a4f66d-0572-4f09-93c6-d30c3f8da4c7" />
+
+<img width="756" height="504" alt="Picture3" src="https://github.com/user-attachments/assets/eb47402b-5774-40d6-b9f0-7fac5ed36509" />
+
+<img width="743" height="524" alt="Picture4" src="https://github.com/user-attachments/assets/a7689679-0a7b-427b-97c8-efabd9cb362e" />
+
 `![System Architecture](images/system_architecture.png)`
 
 ## 🏎️ Project Overview
