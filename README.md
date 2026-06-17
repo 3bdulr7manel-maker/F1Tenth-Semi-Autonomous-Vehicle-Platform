@@ -95,7 +95,14 @@ The system leverages FreeRTOS to split tasks between the two cores of the ESP32,
 https://github.com/user-attachments/assets/83665a0f-c02f-4cce-9204-bd650317a64b
 
 
+## 💡 Project Constraints & Learning Outcomes
 
+While the current state of the vehicle focuses on establishing a robust, foundational semi-autonomous system, the journey to this baseline involved overcoming significant multi-disciplinary hurdles:
+
+* **Cross-Disciplinary Learning Curve:** Coming from a purely Mechanical Engineering background, the electrical and embedded software domains were approached with zero prior knowledge. A substantial portion of the project's timeline was intentionally dedicated to mastering the fundamentals of PCB design, signal processing, and RTOS architecture from the ground up.
+* **Supply Chain & Hardware Reliability:** The prototyping phase was heavily impacted by the acquisition of counterfeit electronic components in the local market. Diagnosing unpredictable hardware failures caused by these fake modules consumed considerable time, ultimately shifting the project's focus toward achieving extreme stability and deterministic control over adding complex software features. 
+
+Ultimately, what may appear as a foundational prototype is the result of rigorous cross-disciplinary learning, troubleshooting, and the successful integration of three distinct engineering fields into a single, functional system.
 
 
 
