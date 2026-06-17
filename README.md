@@ -6,8 +6,8 @@
 
 This repository contains the mechanical designs, electronic schematics, and embedded firmware for a one-tenth scale semi-autonomous vehicle. Inspired by the open-source F1Tenth platform, this project integrates advanced kinematic steering optimization with a highly deterministic, dual-core embedded control system.
 
-*(Please refer to the `graduation thesis.pdf` and `GP Presentation.pptx` files included in this repository for full mathematical analyses, optimization charts, and complete project documentation).*
-
+`graduation thesis.pdf`
+`GP_Presentation.pptx` 
 ## 📸 Mechanical CAD Showcase
 
 <div align="center">
